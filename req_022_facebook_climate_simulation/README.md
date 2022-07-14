@@ -9,7 +9,6 @@ This analysis was done using the data from the [NASA Earth Exchange Global Daily
 ### Methods
 The objective of this analysis is to aggregate raster image files associated with a specific RCP and calculate the average value per RCP over state/country level regions. 
 
-The first objective of this analysis is to fetch the state level burned area data from 2002 to 2019, and aggregate country level and continent level burned area. This analysis was done using the file [Fire_by_LULC.py](https://github.com/resource-watch/blog-analysis/blob/master/req_021_facebook_fires/Fire_by_LULC.py), following the steps:
 1. Download the NEX-GDDP data from Resource Watch.
 2. Aggregate mean RCP values 4.5 and 8.5 over state regions.
 3. Aggregate mean RCP values 4.5 and 8.5 over country regions.
